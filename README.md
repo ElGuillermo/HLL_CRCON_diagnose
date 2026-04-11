@@ -10,23 +10,28 @@ The script should have (redacted) them, but... Just check OK ?
 - **NEVER share it on a public forum / Discord channel** ;
 - If you do not fully trust the person asking these informations, you can open the file with any text editor and delete any sensitive data before sharing (search in it for your passwords, VPS and game server IPs, etc).
 
+---
+
 ## Install
 
-> [!NOTE]
-> The shell commands given below assume your CRCON is installed in `/root/hll_rcon_tool`.  
-> You may have installed your CRCON in a different folder.  
->   
-> Some Ubuntu Linux distributions disable the `root` user and `/root` folder by default.  
-> In these, your default user is `ubuntu`, using the `/home/ubuntu` folder.  
-> You should then find your CRCON in `/home/ubuntu/hll_rcon_tool`.  
->   
-> If so, you'll have to adapt the commands below accordingly.
+> [!IMPORTANT]
+> - The shell commands given below assume your CRCON is installed in `/root/hll_rcon_tool`  
+>   You may have installed your CRCON in a different folder.  
+>   If so, you'll have to adapt the commands below accordingly.
+>
+> - Always copy/paste/execute commands :warning: one line at a time :warning:
 
-- Log into your CRCON host machine using SSH and enter these commands (one line at at time) :
+### 1/2 - Log into your CRCON host machine using SSH
+
+- See [this guide](https://github.com/MarechJ/hll_rcon_tool/wiki/Troubleshooting-&-Help-‐-Common-procedures-‐-How-to-enter-a-SSH-terminal) if you need help to do it.
+
+### 2/2 - Download file
   ```shell
   cd /root/hll_rcon_tool
   wget https://raw.githubusercontent.com/ElGuillermo/HLL_CRCON_Diagnose_file/refs/heads/main/diagnose.sh
   ```
+
+---
 
 ## Use
 - Log into your CRCON host machine using SSH and enter these commands (one line at at time) :
