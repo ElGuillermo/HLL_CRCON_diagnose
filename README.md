@@ -26,10 +26,12 @@ The script should have (redacted) them, but... Just check OK ?
 - See [this guide](https://github.com/MarechJ/hll_rcon_tool/wiki/Troubleshooting-&-Help-‐-Common-procedures-‐-How-to-enter-a-SSH-terminal) if you need help to do it.
 
 ### 2/2 - Download file
-  ```shell
-  cd /root/hll_rcon_tool
-  wget https://raw.githubusercontent.com/ElGuillermo/HLL_CRCON_Diagnose_file/refs/heads/main/diagnose.sh
-  ```
+```shell
+cd /root/hll_rcon_tool
+```
+```shell
+wget https://raw.githubusercontent.com/ElGuillermo/HLL_CRCON_Diagnose_file/refs/heads/main/diagnose.sh
+```
 
 ---
 
@@ -37,6 +39,8 @@ The script should have (redacted) them, but... Just check OK ?
 - Log into your CRCON host machine using SSH and enter these commands (one line at at time) :
   ```shell
   cd /root/hll_rcon_tool
+  ```
+  ```shell
   sh ./diagnose.sh
   ```
 - download the `/root/hll_rcon_tool/diagnose.log` file
