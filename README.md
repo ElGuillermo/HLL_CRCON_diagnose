@@ -36,7 +36,11 @@ wget https://raw.githubusercontent.com/ElGuillermo/HLL_CRCON_Diagnose_file/refs/
 ---
 
 ## Use
-- Log into your CRCON host machine using SSH and enter these commands (one line at at time) :
+
+### 1/2 - Log into your CRCON host machine using SSH
+
+### 2/2 - Launch script
+
   ```shell
   cd /root/hll_rcon_tool
   ```
