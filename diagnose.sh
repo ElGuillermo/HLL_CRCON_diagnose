@@ -10,7 +10,7 @@
 # - Some Ubuntu distros disable 'root' user,
 #   your CRCON could then be found in "/home/ubuntu/hll_rcon_tool".
 # default : "/root/hll_rcon_tool"
-CRCON_folder_path=""
+CRCON_folder_path="/root/hll_rcon_tool"
 
 #
 # └───────────────────────────────────────────────────────────────────────────┘
